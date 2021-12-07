@@ -1,4 +1,4 @@
-import { getAll, getOne } from '../utils/selector'
+import { getAll, getOne } from '@/utils/selector'
 
 export const variants = getAll('.variant')
 export const copyButton = getOne('#password-copy')

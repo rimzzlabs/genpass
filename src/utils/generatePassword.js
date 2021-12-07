@@ -12,7 +12,7 @@ const generatePassword = (length = 8, lower = true, upper = false, number = fals
   const numberText = 1234567890
   const symbolText = `!@#$%^&*()_+-=[]{}|;\\':",./<>?${'`'}~`
 
-  let chars = lower
+  let chars = lowerText
   if (lower) chars += lowerText
   if (symbol) chars += symbolText
   if (upper) chars += upperText

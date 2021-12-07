@@ -1,9 +1,9 @@
-import '@/style.css'
+import { generateButton, valueLength, copyButton } from '@/constant/element'
+import getPassword from '@/handlers/getPassword'
+import clipboard from '@/handlers/clipboard'
+import validate from '@/handlers/validate'
 import event from '@/handlers/event'
-import clipboard from './handlers/clipboard'
-import validate from './handlers/validate'
-import { generateButton, valueLength, copyButton } from './constant/element'
-import getPassword from './handlers/getPassword'
+import '@/style.css'
 
 const main = () => {
   // each of below function is to handle the event, the <event> function accept 3 params

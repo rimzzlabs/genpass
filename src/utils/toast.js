@@ -1,4 +1,4 @@
-import { getOne } from '@/selector'
+import { getOne } from '@/utils/selector'
 
 const toast = (element, message, type = 'danger') => {
   element.innerHTML = `<div id='toast-centered' class="toast ${type} mt-2 md:mt-4 mx-auto">${message}</div>`

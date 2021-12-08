@@ -26,6 +26,13 @@ const getPassword = () => {
     return
   }
 
+  // check if the length is higher than 128 (max length of password)
+  // if the length is higher than 128, generateToast with error message and return the function to prevent the rest of the function
+  if (length > 128) {
+    toast(toastContainer, 'Maximum length is 128 characters!', 'error')
+    return
+  }
+
   if (length > 0) {
     copyButton.removeAttribute('disabled')
     copyButton.classList.remove('disabled')

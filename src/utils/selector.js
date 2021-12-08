@@ -8,10 +8,6 @@
  * that's it!
  */
 
-export const getOne = (element) => {
-  return document.querySelector(element)
-}
+export const getOne = (element) => document.querySelector(element)
 
-export const getAll = (element) => {
-  return document.querySelectorAll(element)
-}
+export const getAll = (element) => document.querySelectorAll(element)

@@ -1,3 +1,11 @@
+/*
+ * This file would create a toast and append it to element given on parameter one
+ * the function accept 3 parameters
+ * element - The element where the toast will be appended
+ * message - The message to be displayed
+ * type - The type of the toast, default is danger, can be success, warning or info
+ */
+
 import { getOne } from '@/utils/selector'
 
 const toast = (element, message, type = 'danger') => {

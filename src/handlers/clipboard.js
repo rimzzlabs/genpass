@@ -1,3 +1,9 @@
+/*
+ * Thi file used as a handler for the clipboard button
+ * It will copy the password to the clipboard, and display a toast
+ * if the passwordOutput is empty, it will not copy anything, and return the function to stop the execution
+ */
+
 import { passwordOutput, toastCopy } from '@/constant/element'
 
 const clipboardHandler = () => {
